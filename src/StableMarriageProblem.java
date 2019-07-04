@@ -115,6 +115,7 @@ public class StableMarriageProblem {
                             iter.add(temp);
                             w.setEngagedTo(m);
                             m.setEngagedTo(w);
+                            break;
                         }
                     }
 
@@ -140,6 +141,7 @@ public class StableMarriageProblem {
                         iter.add(temp);
                         w.setEngagedTo(m);
                         m.setEngagedTo(w);
+                        break;
                     }
                 }
 
